@@ -13,11 +13,12 @@ body{
     color: white;
 }
 
-/* div.circle18{
+div.circle18{
     position: absolute;
     width: 240px;
-    height: 200px;
-    left: 1058px;
+    height: 240px;
+    left: 1028px;
+    top:60%;
     z-index: -50;
     border-radius: 50%;
     background: rgba(62, 139, 255, 0.1);
@@ -28,6 +29,7 @@ div.circle16{
     width: 280px;
     height: 271px;
     left: 281px;
+    top: 30%;
     border-radius: 50%;
     z-index: -50;
     background: rgba(62, 139, 255, 0.1);
@@ -38,10 +40,11 @@ div.circle15{
     width: 420.71px;
     height: 407.51px;
     left: -109px;
+    top: 90%;
     border-radius: 50%;
     z-index: -50;
     background: rgba(62, 139, 255, 0.1);
-} */
+}
 
 .odd-event h1{
     padding: 2rem 4rem;
@@ -332,6 +335,7 @@ footer > ul.follow > li > span.box2{
   .odd-event .img-box{
     width: 65%;
   }
+
   .odd-event h1::before{
     display: inline-block;
     content: "";
@@ -367,6 +371,10 @@ footer > ul.follow > li > span.box2{
   footer{
     font-size: 25px;
     padding-top: 20px;
+  }
+
+  .design{
+    display: none;
   }
 }
 
@@ -446,6 +454,16 @@ footer > ul.follow > li > span.box2{
   footer, .copyright{
     width: 120%;
   }
+
+  footer > ul.contact{
+    position: absolute;
+    left: 285px;
+  }
+
+  footer > ul.follow{
+    position: absolute;
+    left: 535px;
+  }
 }
 
 
@@ -498,11 +516,19 @@ footer > ul.follow > li > span.box2{
 
     footer{
       font-size: 30px;
-      height: 1000px;
+      height: 750px;
     }
-
-    footer .quick-link{
-      display: block;
+  
+    footer > ul.contact{
+      position: absolute;
+      top: 360%;
+      left: 47px;
+    }
+  
+    footer > ul.follow{
+      position: absolute;
+      top: 405%;
+      left: 47px;
     }
 
   }
@@ -553,5 +579,22 @@ footer > ul.follow > li > span.box2{
 
   .odd-event button {
     margin-right: 70%;
+  }
+
+  footer{
+    font-size: 30px;
+    height: 750px;
+  }
+
+  footer > ul.contact{
+    position: absolute;
+    top: 360%;
+    left: 47px;
+  }
+
+  footer > ul.follow{
+    position: absolute;
+    top: 405%;
+    left: 47px;
   }
 }
